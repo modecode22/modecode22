@@ -1,7 +1,8 @@
-- 👋 Hi, I’m moncef
-- 👀 I’m interested in react && reacte-native
-- 🌱 I’m currently learning nodeJs/express/mongoDB
-- 💞️ I’m looking to collaborate on creating a perfect todo + pomodoro Desktop app 
+🔥 Full Stack Firestarter 🔥 bringing 💻 web projects to life with React.js, Next.js, Astro.js, Redux Toolkit, Zustand, TypeScript, Electron.js, Prisma, Tailwind CSS, Node.js, Express, MongoDB, PostgreSQL, IndexedDB, and SQLite 💻
+
+🚀 Constantly pushing the limits of what's possible in the world of web development, I am a driven and dedicated professional who is always eager to tackle new challenges. 💡
+
+✨ With an eye for design and a knack for creating visually stunning, highly functional web apps, I bring a unique and exciting approach to every project I work on. So if you're ready to take your web game to the next level, let's collaborate and create something truly amazing! 🚀✨
 - 📫 How to reach me E-mail {   epiccoder001@gmail.com   }
 
 <!---
