@@ -12,20 +12,20 @@
     <tbody>
       <tr>
         <td align="center" width="96">
-          <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" width="48" height="48" alt="JavaScript">
-          <br>JavaScript
+          <img src="https://upload.vectorlogo.zone/logos/nextjs/images/271afdac-aad3-4712-89fd-a25f63fd6dd4.svg" width="48" height="48" alt="Next Js">
+          <br>Next Js
         </td>
         <td align="center" width="96">
-          <img src="https://www.vectorlogo.zone/logos/python/python-icon.svg" width="48" height="48" alt="Python">
-          <br>Python
+          <img src="https://www.vectorlogo.zone/util/preview.html?image=/logos/reactjs/reactjs-icon.svg" width="48" height="48" alt="React">
+          <br>React
         </td>
         <td align="center" width="96">
-          <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" width="48" height="48" alt="Java">
-          <br>Java
+          <img src="https://upload.vectorlogo.zone/logos/typescriptlang/images/235f610f-bc79-428a-9511-b3de5c3b1208.svg" width="48" height="48" alt="">
+          <br>Typescript
         </td>
         <td align="center" width="96">
-          <img src="https://www.vectorlogo.zone/logos/dotnet/dotnet-icon.svg" width="48" height="48" alt=".NET">
-          <br>.NET
+          <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="48" height="48" alt="TailwindCSS">
+          <br>TailwindCSS
         </td>
       </tr>
       <tr>
@@ -34,8 +34,8 @@
           <br>Node.js
         </td>
         <td align="center" width="96">
-          <img src="https://www.vectorlogo.zone/logos/django/django-icon.svg" width="48" height="48" alt="Django">
-          <br>Django
+          <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite">
+          <br>SQLite
         </td>
         <td align="center" width="96">
           <img src="https://www.vectorlogo.zone/logos/mysql/mysql-icon.svg" width="48" height="48" alt="MySQL">
@@ -49,6 +49,7 @@
     </tbody>
   </table>
 </div>
+
 
 
 <!---
