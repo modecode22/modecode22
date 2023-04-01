@@ -6,15 +6,9 @@
 - 📫 How to reach me E-mail {   epiccoder001@gmail.com   }
 
 
-<div class='lo' >
-ok
+<div style="background-color: #f2f2f2; padding: 10px;">
+    This is a styled div.
 </div>
-<style>
-.lo{
-  background: red;
-  }
-</style>
-
 
 <!---
 modecode22/modecode22 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
