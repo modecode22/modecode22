@@ -45,6 +45,10 @@
           <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="48" height="48" alt="Node.js">
           <br>Node.js
         </td>
+           <td align="center" width="96">
+          <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" width="48" height="48" alt="express js">
+          <br>express js
+        </td>
         <td align="center" width="96">
           <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="48" height="48" alt="SQLite">
           <br>SQLite
