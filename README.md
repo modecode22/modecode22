@@ -28,7 +28,7 @@
           <br>Tauri
         </td>
         <td align="center" width="96">
-          <img src="https://www.vectorlogo.zone/logos/typescriptlang/images/235f610f-bc79-428a-9511-b3de5c3b1208.svg" width="48" height="48" alt="Typescript">
+          <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" width="48" height="48" alt="Typescript">
           <br>Typescript
         </td>
       </tr>
