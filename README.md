@@ -37,12 +37,13 @@
           <img src="https://upload.vectorlogo.zone/logos/typescriptlang/images/235f610f-bc79-428a-9511-b3de5c3b1208.svg" width="48" height="48" alt="">
           <br>Typescript
         </td>
+  
+      </tr>
+      <tr>
         <td align="center" width="96">
           <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="48" height="48" alt="TailwindCSS">
           <br>TailwindCSS
         </td>
-      </tr>
-      <tr>
         <td align="center" width="96">
           <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg" width="48" height="48" alt="Node.js">
           <br>Node.js
