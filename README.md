@@ -23,12 +23,12 @@
           <br>React
         </td>
          <td align="center" width="96">
-          <img src="https://seeklogo.com/images/T/tauri-logo-39352BD5A1-seeklogo.com.png" width="48" height="48" alt="Next Js">
+          <img src="https://seeklogo.com/images/T/tauri-logo-39352BD5A1-seeklogo.com.png" width="48" height="48" alt="Tauri">
           <br>Tauri
         </td>
         
          <td align="center" width="96">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/384px-Electron_Software_Framework_Logo.svg.png?20190331235051" width="48" height="48" alt="Next Js">
+          <img src="https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg" width="48" height="48" alt="Electron">
           <br>Electron
         </td>
         
