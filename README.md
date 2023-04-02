@@ -19,6 +19,10 @@
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png" width="48" height="48" alt="React">
           <br>React
         </td>
+         <td align="center" width="96">
+          <img src="https://upload.vectorlogo.zone/logos/astrobuild/images/6e57e95c-f489-4183-b493-d2c47b173fa6.svg" width="48" height="48" alt="Astro">
+          <br>Astro
+        </td>
         <td align="center" width="96">
           <img src="https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg" width="48" height="48" alt="Electron">
           <br>Electron
