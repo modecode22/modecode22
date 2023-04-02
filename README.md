@@ -16,17 +16,12 @@
           <br>Next Js
         </td>
         
-        
-        
+       
         <td align="center" width="96">
            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png" width="48" height="48" alt="Next Js">
           <br>React
         </td>
-         <td align="center" width="96">
-          <img src="https://seeklogo.com/images/T/tauri-logo-39352BD5A1-seeklogo.com.png" width="48" height="48" alt="Tauri">
-          <br>Tauri
-        </td>
-        
+
          <td align="center" width="96">
           <img src="https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg" width="48" height="48" alt="Electron">
           <br>Electron
