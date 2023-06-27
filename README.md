@@ -5,6 +5,29 @@
 ✨ With an eye for design and a knack for creating visually stunning, highly functional web apps, I bring a unique and exciting approach to every project I work on. So if you're ready to take your web game to the next level, let's collaborate and create something truly amazing! 🚀✨
 - 📫 How to reach me E-mail {   epiccoder001@gmail.com   }
 
+
+### ⚙️ &nbsp;GitHub Analytics ⚙️
+
+<br/>
+
+<p align="left">
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=modecode22&count_private=true&show_icons=true&theme=dark&border_radius=5&hide_border=true&include_all_commits=true" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=modecode22&theme=dark&hide_border=true" width="100%" alt="Meksi Abdennour" />
+</p>
+
+<!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=meksiabdou&layout=compact&theme=dracula)](https://github.com/meksiabdou/github-readme-stats)
+
+<a href="https://wakatime.com"><img width="100%" style="border-radius: 5px" src="https://wakatime.com/share/@b567d339-92da-4bb1-988b-de8c1cb1e6ab/22a100d9-349e-4eaa-8b14-be03e145730d.png" /></a>-->
+
+<p align="left">
+  <img src="https://github-readme-stats-bear.vercel.app/api/top-langs/?username=modecode22&hide_title=true&theme=dark&langs_count=10&layout=compact&hide_border=true"  width="100%" alt="meksiabdou-languages" />
+</p>
+
+
+
 ## My Skills
 
 <div align="center">
