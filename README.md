@@ -1,4 +1,24 @@
-🔥 Full Stack Firestarter 🔥 bringing 💻 web projects to life with React.js, Next.js, Astro.js, Redux Toolkit, Zustand, TypeScript, Electron.js, Prisma, Tailwind CSS, Node.js, Express, MongoDB, PostgreSQL, IndexedDB, and SQLite 💻
+<h1 align="left">Hi 👋! My name is Moncef and I'm a Full-stack developer ,  from Algeria</h1>
+
+###
+
+<img align="right" height="150" src="https://media.tenor.com/LekqijyNlkgAAAAS/wolf.gif"  />
+
+###
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=modecode22&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=great-gatsby&locale=en&hide_border=true" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=modecode22&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=great-gatsby&hide_border=true" height="150" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com?user=modecode22&locale=en&mode=daily&theme=great-gatsby&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
+</div>
+
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/modecode22/modecode22/output/snake.svg" alt="Snake animation" />
+
+###
 ## ✨My portfolio 🚀✨
 # [moncef portfolio](https://moncefdev.vercel.app)
 - 📫 How to reach me E-mail {   aissaouimoncefdev@gmail.com   }
@@ -63,29 +83,6 @@
     </tbody>
   </table>
 </div>
-# 📊 GitHub Stats:
-
-<br/>
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=modecode22&theme=dark&hide_border=true" width="100%" alt="Meksi Abdennour" />
-</p>
-
-
-
-
-
-<p align="left">
-  <img src="https://github-readme-stats-bear.vercel.app/api/top-langs/?username=modecode22&hide_title=true&theme=dark&langs_count=10&layout=compact&hide_border=true"  width="100%" alt="meksiabdou-languages" />
-</p>
-
-
-### 😂 Random Dev Meme
-<img src="https://rm.up.railway.app/" width="512px"/>
-
-<p align="left">
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=modecode22&count_private=true&show_icons=true&theme=dark&border_radius=5&hide_border=true&include_all_commits=true" />
-</p>
 
 
 
