@@ -11,11 +11,11 @@
 <br/>
 
 <p align="left">
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=modecode22&count_private=true&show_icons=true&theme=dark&border_radius=5&hide_border=true&include_all_commits=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=modecode22&theme=dark&hide_border=true" width="100%" alt="Meksi Abdennour" />
 </p>
 
 <p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=modecode22&theme=dark&hide_border=true" width="100%" alt="Meksi Abdennour" />
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=modecode22&count_private=true&show_icons=true&theme=dark&border_radius=5&hide_border=true&include_all_commits=true" />
 </p>
 
 <!--[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=meksiabdou&layout=compact&theme=dracula)](https://github.com/meksiabdou/github-readme-stats)
