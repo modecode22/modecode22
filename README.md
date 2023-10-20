@@ -4,7 +4,9 @@
 
 <img align="right" height="150" src="https://media.tenor.com/LekqijyNlkgAAAAS/wolf.gif"  />
 
-###
+### 
+
+## Learning rust & go
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=modecode22&locale=en&mode=daily&theme=great-gatsby&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
