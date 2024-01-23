@@ -1,13 +1,5 @@
 <h1 align="left">Hi 👋! My name is Moncef and I'm a Full-stack developer ,  from Algeria</h1>
 
-###
-<div align="center">
-
-<img align="right" height="150" src="https://media.tenor.com/LekqijyNlkgAAAAS/wolf.gif"  />
-
-</div>
-
-### 
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=modecode22&locale=en&mode=daily&theme=great-gatsby&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
@@ -19,6 +11,15 @@
   ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=modecode22&theme=github_dark)
 
 </div>
+
+###
+<div align="center">
+
+<img align="right" height="150" src="https://media.tenor.com/LekqijyNlkgAAAAS/wolf.gif"  />
+
+</div>
+
+### 
 
 ###
  
