@@ -23,8 +23,8 @@
 
 ###
  
-# ✨ My [ portfolio](https://moncef.net) 🚀
-# 📫 E-mail  moncef.aissaoui@moncef.net  
+# ✨ [ portfolio](https://moncef.net) 🚀
+# 📫 moncef.aissaoui@moncef.net  
 
 ## My Skills ✨
 
