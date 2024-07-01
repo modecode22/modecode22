@@ -5,14 +5,6 @@
   <img src="https://streak-stats.demolab.com?user=modecode22&locale=en&mode=daily&theme=great-gatsby&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=modecode22&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=great-gatsby&hide_border=true" height="150" alt="languages graph"  />
 </div>
-
-<div align="center">
-
-<img align="right" height="150" src="https://media.tenor.com/LekqijyNlkgAAAAS/wolf.gif"  />
-
-</div>
-
-
 ###
  
 # ✨ [ portfolio](https://moncef.net) 🚀
