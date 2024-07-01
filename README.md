@@ -7,12 +7,6 @@
 </div>
 
 <div align="center">
-  
-  ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=modecode22&theme=github_dark)
-
-</div>
-
-<div align="center">
 
 <img align="right" height="150" src="https://media.tenor.com/LekqijyNlkgAAAAS/wolf.gif"  />
 
