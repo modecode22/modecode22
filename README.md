@@ -1,6 +1,7 @@
 <h1 align="left">Hi 👋! My name is Moncef and I'm a Full-stack developer ,  from Algeria</h1>
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=modecode22&locale=en&mode=daily&theme=great-gatsby&hide_border=true&border_radius=5" height="150" alt="streak graph"  />
+  ![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ffflabs\&layout=compact)
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=modecode22&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=great-gatsby&hide_border=true" height="150" alt="languages graph"  />
 </div>
 
