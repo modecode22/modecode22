@@ -1,83 +1,127 @@
-<div align="center">
+<!-- Drawn in moncef.net's design: the images come from scripts/build.py (python scripts/build.py). -->
 
-<img src="./assets/header.svg" width="100%" alt="Moncef Aissaoui, full-stack engineer" />
+<a href="https://www.moncef.net/en/">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <img src="./assets/header-light.svg" width="100%" alt="Moncef Aissaoui. Full-stack developer in El Oued, Algeria. I'm Moncef. I build products for the web. I lead Selance, a studio that builds websites, online stores and apps for businesses in Saudi Arabia, Qatar and Algeria, and I make products of my own on the side." />
+</picture>
+</a>
 
-<a href="https://moncef.net">moncef.net</a> &nbsp;·&nbsp;
-<a href="https://mochir.com">mochir.com</a> &nbsp;·&nbsp;
-<a href="https://selance.com">selance.com</a> &nbsp;·&nbsp;
-<a href="https://madeinalgeria.dev">madeinalgeria.dev</a>
+<p>
+<a href="mailto:moncef@selance.com"><b>Email me</b></a> &nbsp;·&nbsp;
+<a href="https://www.moncef.net/en/book">Book a call</a> &nbsp;·&nbsp;
+<a href="https://www.moncef.net/en/">moncef.net</a> &nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/moncef-aissaoui-62a486269/">LinkedIn</a> &nbsp;·&nbsp;
+<a href="https://twitter.com/moncefais">X</a>
+</p>
 
-</div>
+<br />
 
-### what i actually do
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/01-building-now-dark.svg" />
+  <img src="./assets/01-building-now-light.svg" width="100%" alt="01 Building now" />
+</picture>
 
-I am not the person you hand one layer to. I take a product from the first migration to the live domain: data model, API, dashboard, marketing site, mobile app, emails, CI, DNS, and the monitoring after it ships.
-
-```mermaid
-%%{init:{"theme":"base","themeVariables":{"primaryColor":"#3c3836","primaryTextColor":"#ebdbb2","primaryBorderColor":"#fabd2f","lineColor":"#7c6f64","secondaryColor":"#32302f","tertiaryColor":"#282828","fontFamily":"ui-monospace, monospace","fontSize":"13px"}}}%%
-flowchart LR
-  S([schema]) --> A([api])
-  A --> W([web app])
-  A --> M([mobile])
-  A --> P([public site])
-  A --> J([queues, email, payments])
-  W --> D([design system])
-  M --> D
-  P --> D
-  D --> R([ship])
-  J --> R
-  R --> O([ci, dns, monitoring, iterate])
-  O -.-> S
-```
-
-### range
-
-<table>
-<tr><td><b>languages</b></td><td>TypeScript, Rust, Go, C, Python, SQL</td></tr>
-<tr><td><b>frontend</b></td><td>React, Next.js, Astro, design systems and tokens, animation, accessibility, performance budgets, RTL and bilingual UI</td></tr>
-<tr><td><b>mobile</b></td><td>React Native, Expo, native builds and store releases</td></tr>
-<tr><td><b>backend</b></td><td>Node, Bun, Hono, Postgres and schema design, Redis, queues and background jobs, REST, tRPC, GraphQL, auth systems, Stripe</td></tr>
-<tr><td><b>infra</b></td><td>Cloudflare Workers, D1, KV, Docker, CI/CD, Linux and VPS, Nginx, AWS, GCP, observability, DNS and email deliverability</td></tr>
-<tr><td><b>ai</b></td><td>LLM applications, RAG, agents and tool use, embeddings and vector search, scraping and automation pipelines</td></tr>
-</table>
-
-### building
-
-<table>
+<table width="100%">
 <tr>
-<td width="180"><a href="https://madeinalgeria.dev"><b>Made in Algeria</b></a></td>
-<td>A bilingual directory of software built in Algeria. Static site, two APIs, admin review queue, newsletter and campaign mail. Arabic and RTL front to back.</td>
+<td width="190"><b>Selance</b></td>
+<td>My studio: websites, online stores and apps for the Gulf and Algeria.</td>
+<td width="170" align="right"><a href="https://www.selance.com/"><code>selance.com</code>&nbsp;↗</a></td>
 </tr>
 <tr>
-<td><a href="https://mochir.com"><b>Mochir</b></a></td>
-<td><!-- one line: what it is --></td>
+<td width="190"><b>Mochir</b></td>
+<td>An AI business directory for Algeria.</td>
+<td width="170" align="right"><a href="https://www.mochir.com/"><code>mochir.com</code>&nbsp;↗</a></td>
 </tr>
 <tr>
-<td><a href="https://selance.com"><b>Selance</b></a></td>
-<td>Product studio. Client products shipped on the same pipeline, first migration to production domain.</td>
+<td width="190"><b>Kayen</b></td>
+<td>A community platform for Algerian builders.</td>
+<td width="170" align="right"><a href="https://kayen.dev/"><code>kayen.dev</code>&nbsp;↗</a></td>
 </tr>
 <tr>
-<td><a href="https://moncef.net"><b>moncef.net</b></a></td>
-<td>Personal site and writing.</td>
+<td width="190"><b>ak7l</b></td>
+<td>An online store from a single sentence.</td>
+<td width="170" align="right"><a href="https://ak7l.com/"><code>ak7l.com</code>&nbsp;↗</a></td>
+</tr>
+<tr>
+<td width="190"><b>Najmoo</b></td>
+<td>Learning games for primary school teachers.</td>
+<td width="170" align="right"><a href="https://najmoo.com/"><code>najmoo.com</code>&nbsp;↗</a></td>
+</tr>
+<tr>
+<td width="190"><b>Made in Algeria</b></td>
+<td>The directory of Algerian open source.</td>
+<td width="170" align="right"><a href="https://madeinalgeria.dev/"><code>madeinalgeria.dev</code>&nbsp;↗</a></td>
 </tr>
 </table>
 
-### how i build
+<br />
 
-Real module boundaries, contracts between modules instead of imports across them. Validation schemas shared by the API and every client, so a response shape cannot silently drift. Pagination that ships with its index and its query plan. Tests against the real runtime with real migrations, not mocks. Design tokens in one file, so a rebrand is one file edited and one page reviewed.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/02-built-for-clients-dark.svg" />
+  <img src="./assets/02-built-for-clients-light.svg" width="100%" alt="02 Built for clients" />
+</picture>
 
-### open to work
+<table width="100%">
+<tr>
+<td width="190"><b>TMR Construction</b></td>
+<td>The website of a design and build firm in Algeria.</td>
+<td width="170" align="right"><a href="https://www.sarltmr.com/"><code>sarltmr.com</code>&nbsp;↗</a></td>
+</tr>
+<tr>
+<td width="190"><b>El Rouqa</b></td>
+<td>A games guide with reviews, for a gaming creator.</td>
+<td width="170" align="right"><a href="https://elrouqa.com/"><code>elrouqa.com</code>&nbsp;↗</a></td>
+</tr>
+<tr>
+<td width="190"><b>Esnam</b></td>
+<td>The website of a Saudi real estate developer.</td>
+<td width="170" align="right"><a href="https://www.esnam.com.sa/"><code>esnam.com.sa</code>&nbsp;↗</a></td>
+</tr>
+</table>
 
-Freelance and contract. Product builds, edge and serverless architecture, mobile, AI features, Arabic and RTL products.
+<br />
 
-<a href="mailto:moncef@mochir.com">moncef@mochir.com</a> &nbsp;·&nbsp;
-<a href="https://x.com/moncefais">x</a> &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/moncef-aissaoui/">linkedin</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/03-range-dark.svg" />
+  <img src="./assets/03-range-light.svg" width="100%" alt="03 Range" />
+</picture>
 
-<div align="center">
+<table width="100%">
+<tr><td width="190"><code>LANGUAGES</code></td><td>TypeScript, Rust, Go, C, Python, SQL</td></tr>
+<tr><td><code>FRONTEND</code></td><td>React, Next.js, Astro, design systems and tokens, animation, accessibility, performance budgets, RTL and bilingual UI</td></tr>
+<tr><td><code>MOBILE</code></td><td>React Native, Expo, native builds and store releases</td></tr>
+<tr><td><code>BACKEND</code></td><td>Node, Bun, Hono, Postgres and schema design, Redis, queues and background jobs, REST, tRPC, GraphQL, auth, Stripe</td></tr>
+<tr><td><code>INFRA</code></td><td>Cloudflare Workers, D1, KV, Docker, CI/CD, Linux and VPS, Nginx, AWS, GCP, observability, DNS and email deliverability</td></tr>
+<tr><td><code>AI</code></td><td>LLM applications, RAG, agents and tool use, embeddings and vector search, scraping and automation pipelines</td></tr>
+</table>
 
-<img src="https://streak-stats.demolab.com?user=modecode22&theme=gruvbox&background=1d2021&stroke=3c3836&ring=fabd2f&fire=fb4934&currStreakLabel=ebdbb2&sideLabels=928374&currStreakNum=fabd2f&sideNums=83a598&hide_border=true" height="150" alt="" />
+<br />
 
-<sub>(👉ﾟヮﾟ)👉</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/04-how-i-build-dark.svg" />
+  <img src="./assets/04-how-i-build-light.svg" width="100%" alt="04 How I build" />
+</picture>
 
-</div>
+I take a product from the first migration to the live domain: data model, API, dashboard, marketing site, mobile app, emails, CI, DNS, and the monitoring after it ships.
+
+Real module boundaries, with contracts between modules instead of imports across them. Validation schemas shared by the API and every client, so a response shape cannot silently drift. Tests against the real runtime with real migrations, not mocks. Design tokens in one file, so a rebrand is one file edited and one page reviewed.
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/05-lets-talk-dark.svg" />
+  <img src="./assets/05-lets-talk-light.svg" width="100%" alt="05 Let's talk." />
+</picture>
+
+Have a project in mind? Write to me directly, or ask [Selance](https://www.selance.com/) for a written quote. Freelance and contract: product builds, edge and serverless architecture, mobile, AI features, Arabic and RTL products.
+
+<p>
+<a href="mailto:moncef@selance.com"><b>moncef@selance.com</b></a> &nbsp;·&nbsp;
+<a href="https://www.moncef.net/en/book">Book a call, 30 min or 1 hour</a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=modecode22&background=0c0e12&border=26282e&stroke=26282e&ring=fa4d00&fire=fa4d00&currStreakNum=f9fafb&sideNums=f9fafb&currStreakLabel=9ea2a8&sideLabels=9ea2a8&dates=9ea2a8" />
+  <img src="https://streak-stats.demolab.com?user=modecode22&background=f9fafb&border=e4e6ea&stroke=e4e6ea&ring=fa4d00&fire=fa4d00&currStreakNum=0c0e12&sideNums=0c0e12&currStreakLabel=51545b&sideLabels=51545b&dates=51545b" height="150" alt="GitHub contribution streak" />
+</picture>
