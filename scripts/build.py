@@ -1,6 +1,6 @@
 """Draws the profile README's images in moncef.net's design.
 
-    python scripts/build.py [path/to/moncef/public/fonts]
+    python scripts/build.py
 
 GitHub strips CSS from a README, so the site's look lives in SVGs: the paper
 grid with its registration crosses, the Alexandria headline with the orange
@@ -15,9 +15,8 @@ from fontTools.subset import Options, Subsetter
 from fontTools.ttLib import TTFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FONTS = sys.argv[1] if len(sys.argv) > 1 else os.path.expanduser(
-    "~/Desktop/personal/main-projects/selance-v6/apps/moncef/public/fonts"
-)
+# moncef.net's own files (Alexandria and IBM Plex, OFL), Latin subsets.
+FONTS = os.path.join(ROOT, "fonts")
 OUT = os.path.join(ROOT, "assets")
 W = 1200
 
@@ -231,12 +230,20 @@ SECTIONS = [
     ("05", "Let's talk."),
 ]
 
-os.makedirs(OUT, exist_ok=True)
-for theme in THEMES:
-    with open(os.path.join(OUT, f"header-{theme}.svg"), "w", encoding="utf-8", newline="\n") as f:
-        f.write(header(theme))
-    for number, title in SECTIONS:
-        slug = title.lower().replace("'", "").replace(".", "").replace(" ", "-")
-        with open(os.path.join(OUT, f"{number}-{slug}-{theme}.svg"), "w", encoding="utf-8", newline="\n") as f:
-            f.write(section(theme, number, title))
-print("written", sorted(os.listdir(OUT)))
+def write(name, content):
+    os.makedirs(OUT, exist_ok=True)
+    with open(os.path.join(OUT, name), "w", encoding="utf-8", newline="\n") as f:
+        f.write(content)
+
+
+def main():
+    for theme in THEMES:
+        write(f"header-{theme}.svg", header(theme))
+        for number, title in SECTIONS:
+            slug = title.lower().replace("'", "").replace(".", "").replace(" ", "-")
+            write(f"{number}-{slug}-{theme}.svg", section(theme, number, title))
+    print("written", sorted(os.listdir(OUT)))
+
+
+if __name__ == "__main__":
+    main()

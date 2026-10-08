@@ -1,4 +1,4 @@
-<!-- Drawn in moncef.net's design: the images come from scripts/build.py (python scripts/build.py). -->
+<!-- Drawn in moncef.net's design: scripts/build.py draws the header and section heads, scripts/activity.py the activity card (daily, .github/workflows/activity.yml). -->
 
 <a href="https://www.moncef.net/en/">
 <picture>
@@ -121,7 +121,9 @@ Have a project in mind? Write to me directly, or ask [Selance](https://www.selan
 <a href="https://www.moncef.net/en/book">Book a call, 30 min or 1 hour</a>
 </p>
 
+<br />
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=modecode22&background=0c0e12&border=26282e&stroke=26282e&ring=fa4d00&fire=fa4d00&currStreakNum=f9fafb&sideNums=f9fafb&currStreakLabel=9ea2a8&sideLabels=9ea2a8&dates=9ea2a8" />
-  <img src="https://streak-stats.demolab.com?user=modecode22&background=f9fafb&border=e4e6ea&stroke=e4e6ea&ring=fa4d00&fire=fa4d00&currStreakNum=0c0e12&sideNums=0c0e12&currStreakLabel=51545b&sideLabels=51545b&dates=51545b" height="150" alt="GitHub contribution streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+  <img src="./assets/activity-light.svg" width="100%" alt="My GitHub activity: a year of contributions, the totals and the streaks, redrawn every day" />
 </picture>
